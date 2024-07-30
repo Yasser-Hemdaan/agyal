@@ -14,217 +14,225 @@ import hero from "../../assets/images/fields/hero.jpg";
 
 const medicalBrands = [
   {
-    src: "/public/parteners/01.jpg",
-    commentKey: "fields.category.medical.brands.brand1.comment",
-  },
-  {
-    src: "/public/parteners/02.jpg",
-    commentKey: "fields.category.medical.brands.brand2.comment",
-  },
-  {
-    src: "/public/parteners/03.jpg",
-    commentKey: "fields.category.medical.brands.brand3.comment",
-  },
-  {
-    src: "/public/parteners/04.jpg",
+    src: "/public/cates/medical/4.jpg",
     commentKey: "fields.category.medical.brands.brand4.comment",
   },
   {
-    src: "/public/parteners/05.jpg",
+    src: "/public/cates/medical/5.jpg",
     commentKey: "fields.category.medical.brands.brand5.comment",
   },
   {
-    src: "/public/parteners/06.jpg",
+    src: "/public/cates/medical/6.jpg",
     commentKey: "fields.category.medical.brands.brand6.comment",
+  },
+  {
+    src: "/public/cates/medical/7.jpg",
+    commentKey: "fields.category.medical.brands.brand7.comment",
+  },
+  {
+    src: "/public/cates/medical/8.jpg",
+    commentKey: "fields.category.medical.brands.brand8.comment",
+  },
+  {
+    src: "/public/cates/medical/9.jpg",
+    commentKey: "fields.category.medical.brands.brand9.comment",
+  },
+  {
+    src: "/public/cates/medical/10.jpg",
+    commentKey: "fields.category.medical.brands.brand10.comment",
+  },
+  {
+    src: "/public/cates/medical/11.jpg",
+    commentKey: "fields.category.medical.brands.brand11.comment",
+  },
+  {
+    src: "/public/cates/medical/12.jpg",
+    commentKey: "fields.category.medical.brands.brand12.comment",
+  },
+  {
+    src: "/public/cates/medical/13.jpg",
+    commentKey: "fields.category.medical.brands.brand13.comment",
+  },
+  {
+    src: "/public/cates/medical/14.jpg",
+    commentKey: "fields.category.medical.brands.brand14.comment",
   },
 ];
 
 const educationalBrands = [
   {
-    src: "/public/parteners/01.jpg",
+    src: "/public/cates/edu/1.jpg",
     commentKey: "fields.category.educational.brands.brand1.comment",
   },
   {
-    src: "/public/parteners/02.jpg",
+    src: "/public/cates/edu/2.jpg",
     commentKey: "fields.category.educational.brands.brand2.comment",
   },
   {
-    src: "/public/parteners/03.jpg",
+    src: "/public/cates/edu/3.jpg",
     commentKey: "fields.category.educational.brands.brand3.comment",
-  },
-  {
-    src: "/public/parteners/04.jpg",
-    commentKey: "fields.category.educational.brands.brand4.comment",
-  },
-  {
-    src: "/public/parteners/05.jpg",
-    commentKey: "fields.category.educational.brands.brand5.comment",
-  },
-  {
-    src: "/public/parteners/06.jpg",
-    commentKey: "fields.category.educational.brands.brand6.comment",
   },
 ];
 
 const sportsBrands = [
   {
-    src: "/public/parteners/01.jpg",
+    src: "/public/cates/sport/1.jpg",
     commentKey: "fields.category.sports.brands.brand1.comment",
   },
   {
-    src: "/public/parteners/02.jpg",
+    src: "/public/cates/sport/2.jpg",
     commentKey: "fields.category.sports.brands.brand2.comment",
   },
   {
-    src: "/public/parteners/03.jpg",
+    src: "/public/cates/sport/3.jpg",
     commentKey: "fields.category.sports.brands.brand3.comment",
   },
   {
-    src: "/public/parteners/04.jpg",
+    src: "/public/cates/sport/4.jpg",
     commentKey: "fields.category.sports.brands.brand4.comment",
-  },
-  {
-    src: "/public/parteners/05.jpg",
-    commentKey: "fields.category.sports.brands.brand5.comment",
-  },
-  {
-    src: "/public/parteners/06.jpg",
-    commentKey: "fields.category.sports.brands.brand6.comment",
   },
 ];
 
 const perfumesBeautyBrands = [
   {
-    src: "/public/parteners/01.jpg",
+    src: "/public/cates/beauty/1.jpg",
     commentKey: "fields.category.perfumesBeauty.brands.brand1.comment",
   },
   {
-    src: "/public/parteners/02.jpg",
+    src: "/public/cates/beauty/2.jpg",
     commentKey: "fields.category.perfumesBeauty.brands.brand2.comment",
   },
   {
-    src: "/public/parteners/03.jpg",
+    src: "/public/cates/beauty/3.jpg",
     commentKey: "fields.category.perfumesBeauty.brands.brand3.comment",
   },
   {
-    src: "/public/parteners/04.jpg",
+    src: "/public/cates/beauty/4.jpg",
     commentKey: "fields.category.perfumesBeauty.brands.brand4.comment",
-  },
-  {
-    src: "/public/parteners/05.jpg",
-    commentKey: "fields.category.perfumesBeauty.brands.brand5.comment",
-  },
-  {
-    src: "/public/parteners/06.jpg",
-    commentKey: "fields.category.perfumesBeauty.brands.brand6.comment",
   },
 ];
 
 const cafeRestaurantBrands = [
   {
-    src: "/public/parteners/01.jpg",
+    src: "/public/cates/resturant/1.jpg",
     commentKey: "fields.category.cafeRestaurant.brands.brand1.comment",
   },
   {
-    src: "/public/parteners/02.jpg",
+    src: "/public/cates/resturant/2.jpg",
     commentKey: "fields.category.cafeRestaurant.brands.brand2.comment",
   },
   {
-    src: "/public/parteners/03.jpg",
+    src: "/public/cates/resturant/3.jpg",
     commentKey: "fields.category.cafeRestaurant.brands.brand3.comment",
   },
   {
-    src: "/public/parteners/04.jpg",
+    src: "/public/cates/resturant/4.jpg",
     commentKey: "fields.category.cafeRestaurant.brands.brand4.comment",
   },
   {
-    src: "/public/parteners/05.jpg",
+    src: "/public/cates/resturant/5.jpg",
     commentKey: "fields.category.cafeRestaurant.brands.brand5.comment",
   },
   {
-    src: "/public/parteners/06.jpg",
+    src: "/public/cates/resturant/6.jpg",
     commentKey: "fields.category.cafeRestaurant.brands.brand6.comment",
+  },
+  {
+    src: "/public/cates/resturant/7.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand7.comment",
+  },
+  {
+    src: "/public/cates/resturant/8.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand8.comment",
+  },
+  {
+    src: "/public/cates/resturant/9.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand9.comment",
+  },
+  {
+    src: "/public/cates/resturant/10.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand10.comment",
+  },
+  {
+    src: "/public/cates/resturant/11.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand11.comment",
+  },
+  {
+    src: "/public/cates/resturant/12.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand12.comment",
+  },
+  {
+    src: "/public/cates/resturant/13.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand13.comment",
   },
 ];
 
 const clothesBrands = [
   {
-    src: "/public/parteners/01.jpg",
+    src: "/public/cates/clothes/1.jpg",
     commentKey: "fields.category.clothes.brands.brand1.comment",
   },
   {
-    src: "/public/parteners/02.jpg",
+    src: "/public/cates/clothes/2.jpg",
     commentKey: "fields.category.clothes.brands.brand2.comment",
   },
   {
-    src: "/public/parteners/03.jpg",
+    src: "/public/cates/clothes/3.jpg",
     commentKey: "fields.category.clothes.brands.brand3.comment",
   },
   {
-    src: "/public/parteners/04.jpg",
+    src: "/public/cates/clothes/4.jpg",
     commentKey: "fields.category.clothes.brands.brand4.comment",
   },
   {
-    src: "/public/parteners/05.jpg",
+    src: "/public/cates/clothes/5.jpg",
     commentKey: "fields.category.clothes.brands.brand5.comment",
   },
   {
-    src: "/public/parteners/06.jpg",
+    src: "/public/cates/clothes/6.jpg",
+    commentKey: "fields.category.clothes.brands.brand6.comment",
+  },
+  {
+    src: "/public/cates/clothes/7.jpg",
+    commentKey: "fields.category.clothes.brands.brand6.comment",
+  },
+  {
+    src: "/public/cates/clothes/8.jpg",
     commentKey: "fields.category.clothes.brands.brand6.comment",
   },
 ];
 
 const variousBrands = [
   {
-    src: "/public/parteners/01.jpg",
+    src: "/public/cates/various/1.jpg",
     commentKey: "fields.category.various.brands.brand1.comment",
   },
   {
-    src: "/public/parteners/02.jpg",
+    src: "/public/cates/various/2.jpg",
     commentKey: "fields.category.various.brands.brand2.comment",
   },
   {
-    src: "/public/parteners/03.jpg",
+    src: "/public/cates/various/3.jpg",
     commentKey: "fields.category.various.brands.brand3.comment",
   },
   {
-    src: "/public/parteners/04.jpg",
+    src: "/public/cates/various/4.jpg",
     commentKey: "fields.category.various.brands.brand4.comment",
   },
   {
-    src: "/public/parteners/05.jpg",
+    src: "/public/cates/various/5.jpg",
     commentKey: "fields.category.various.brands.brand5.comment",
   },
   {
-    src: "/public/parteners/06.jpg",
+    src: "/public/cates/various/6.jpg",
     commentKey: "fields.category.various.brands.brand6.comment",
   },
 ];
 
 const onlineBrands = [
   {
-    src: "/public/parteners/01.jpg",
+    src: "/public/cates/online/1.jpg",
     commentKey: "fields.category.online.brands.brand1.comment",
-  },
-  {
-    src: "/public/parteners/02.jpg",
-    commentKey: "fields.category.online.brands.brand2.comment",
-  },
-  {
-    src: "/public/parteners/03.jpg",
-    commentKey: "fields.category.online.brands.brand3.comment",
-  },
-  {
-    src: "/public/parteners/04.jpg",
-    commentKey: "fields.category.online.brands.brand4.comment",
-  },
-  {
-    src: "/public/parteners/05.jpg",
-    commentKey: "fields.category.online.brands.brand5.comment",
-  },
-  {
-    src: "/public/parteners/06.jpg",
-    commentKey: "fields.category.online.brands.brand6.comment",
   },
 ];
 

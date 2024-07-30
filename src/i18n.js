@@ -183,32 +183,42 @@ i18n.use(initReactI18next).init({
               title: "medical",
               desc: "Get Your Discounts Upon Visiting Our Medical Partners, Whether It's A Doctor's Appointment, A Laboratory, A Pharmacy And Many More Relevant Health Services.",
               brands: {
-                brand1: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand2: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand3: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
                 brand4: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "Silver: 15% , Gold: 15% , VIP: 15% Internal and external",
                 },
                 brand5: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "Silver: 15% , Gold: 15% , VIP: 15% Except for the dye",
                 },
                 brand6: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "Silver: 15% , Gold: 15% , VIP: 15% Except for the dye",
                 },
                 brand7: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 25% , Gold: 25% , VIP: 25%",
                 },
                 brand8: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "5% to 15% discount on all memberships",
                 },
                 brand9: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "25% on examination - 15% on implants, orthodontics and other services",
+                },
+                brand10: {
+                  comment: "20% to 50% discount on all memberships",
+                },
+                brand11: {
+                  comment: "Silver: 30% , Gold: 30% , VIP: 30%",
+                },
+                brand12: {
+                  comment: "20% to 50% discount on all memberships",
+                },
+                brand13: {
+                  comment: "20% to 50% discount on all memberships",
+                },
+                brand14: {
+                  comment: "Silver: 25% , Gold: 25% , VIP: 25%",
                 },
               },
             },
@@ -217,31 +227,14 @@ i18n.use(initReactI18next).init({
               desc: "Because We Care About Your Knowledge And Education, We're Providing The Top Notch Teachers And Centers And Classes To Help You Build The Knowledge And Career You Always Dreamed Of.",
               brands: {
                 brand1: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 12.5% , Gold: 12.5% , VIP: 12.5%",
                 },
                 brand2: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "12% on summaries - 10% on stationery and children's toys",
                 },
                 brand3: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand4: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand5: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand6: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand7: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand8: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand9: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "From 10% to 20%",
                 },
               },
             },
@@ -250,31 +243,16 @@ i18n.use(initReactI18next).init({
               desc: "A Wide Variety Of Gyms, Sportswear Shops, Private Coaches, Supplements And Much More Services At The Palm Of Your Hand.",
               brands: {
                 brand1: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 10% , Gold: 10% , VIP: 15%",
                 },
                 brand2: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 15% , Gold: 17.5% , VIP: 20%",
                 },
                 brand3: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 40% , Gold: 45% , VIP: 50%",
                 },
                 brand4: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand5: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand6: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand7: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand8: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand9: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 20% , Gold: 20% , VIP: 20%",
                 },
               },
             },
@@ -283,31 +261,17 @@ i18n.use(initReactI18next).init({
               desc: "For Our Lovely Ladies, We Offer All What You Will Ever Need To Shine Like The Queen You Are, The Best Cosmetics For The Best Price.",
               brands: {
                 brand1: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "VIP: 25%",
                 },
                 brand2: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "Silver: 10% , Gold: 10% , VIP: 10% Except for paper",
                 },
                 brand3: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "From 5% to 20% on the base price, excluding offers",
                 },
                 brand4: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand5: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand6: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand7: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand8: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand9: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "35% to 50% for all memberships",
                 },
               },
             },
@@ -316,31 +280,47 @@ i18n.use(initReactI18next).init({
               desc: "Ensures You Enjoy Your Favorite Meals At A Lower Cost. We Partner With Top Restaurants To Bring You Exclusive Deals. Save Money While Indulging In Delicious Food. Experience The Best Dining Options At Unbeatable Prices.",
               brands: {
                 brand1: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 15% , Gold: 15% , VIP: 15%",
                 },
                 brand2: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "Silver: 15% , Gold: 15% , VIP: 15% Offers not included",
                 },
                 brand3: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 10% , Gold: 15% , VIP: 20%",
                 },
                 brand4: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "10% on breakfast and desserts and 15% on drinks, waffles and ice cream",
                 },
                 brand5: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "10% off restaurant and café - VIP discount",
                 },
                 brand6: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 10% , Gold: 15% , VIP: 20%",
                 },
                 brand7: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 15% , Gold: 15% , VIP: 15%",
                 },
                 brand8: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "12% off on the showroom and free delivery without discount",
                 },
                 brand9: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "10% on takeaway - 15% on the lounge - free delivery",
+                },
+                brand10: {
+                  comment: "Silver: 12% , Gold: 12% , VIP: 12%",
+                },
+                brand11: {
+                  comment: "Silver: 10% , Gold: 10% , VIP: 10%",
+                },
+                brand12: {
+                  comment: "15% off drinks - 10% off all materials",
+                },
+                brand13: {
+                  comment: "10% on raw materials - 20% on drinks",
                 },
               },
             },
@@ -349,31 +329,30 @@ i18n.use(initReactI18next).init({
               desc: "Offers Clients Discounts On Our Clothing Brands. Our Service Allows You To Purchase Your Favorite Fashion Items At Reduced Prices. We Partner With Top Clothing Brands To Bring You Exclusive Deals. Save Money While Staying Stylish And Trendy. Experience The Best Fashion Options At Unbeatable Prices.",
               brands: {
                 brand1: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "Silver: 0% , Gold: 5% , VIP: 5% Add to the discount percentage available in the branch",
                 },
                 brand2: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "Silver: 0% , Gold: 5% , VIP: 5% Add to the discount percentage available in the branch",
                 },
                 brand3: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 40% , Gold: 45% , VIP: 50%",
                 },
                 brand4: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 40% , Gold: 45% , VIP: 50%",
                 },
                 brand5: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 10% , Gold: 10% , VIP: 15%",
                 },
                 brand6: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 10% , Gold: 15% , VIP: 20%",
                 },
                 brand7: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 10% , Gold: 15% , VIP: 20%",
                 },
                 brand8: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand9: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "10% on accessories - 15% on clothing",
                 },
               },
             },
@@ -382,31 +361,25 @@ i18n.use(initReactI18next).init({
               desc: "Here You Will Find Brands Who Provide Services You Will Need Through Out Your Day, Whether Your Car Needs Oil Or You're Buying New Clothes It Will Always Be Here For The Better Quality And The Best Price In The Market.",
               brands: {
                 brand1: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "not found in excell sheet",
                 },
                 brand2: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "5% on conference hall - 7% on hotel rooms - VIP discount",
                 },
                 brand3: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "Silver: 10% , Gold: 10% , VIP: 12.5% Except snacks and drinks",
                 },
                 brand4: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 10% , Gold: 15% , VIP: 15% to 20%",
                 },
                 brand5: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "not found in excell sheet",
                 },
                 brand6: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand7: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand8: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand9: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment:
+                    "Silver: 15% , Gold: 20% , VIP: 25% Except for mobiles",
                 },
               },
             },
@@ -415,31 +388,7 @@ i18n.use(initReactI18next).init({
               desc: "Allows You To Shop For Your Favorite Products At Reduced Prices. We Partner With Top Online Stores To Bring You Exclusive Deals. Save Money While Enjoying A Convenient Shopping Experience. Experience The Best Online Shopping Options At Unbeatable Prices.",
               brands: {
                 brand1: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand2: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand3: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand4: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand5: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand6: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand7: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand8: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
-                },
-                brand9: {
-                  comment: "Silver: 10.0% , Gold: 15.0% , VIP: 20.0%",
+                  comment: "Silver: 10% , Gold: 20% , VIP: 30%",
                 },
               },
             },
@@ -700,32 +649,39 @@ i18n.use(initReactI18next).init({
               title: "طبي",
               desc: "احصل على خصوماتك عند زيارة شركائنا الطبيين، سواء كان ذلك موعدًا مع الطبيب أو المختبر أو الصيدلية والعديد من الخدمات الصحية ذات الصلة",
               brands: {
-                brand1: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand2: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand3: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
                 brand4: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 15%، الذهب: 15%، مميز: 15% داخلي وخارجي",
                 },
                 brand5: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 15%، الذهب: 15%، مميز: 15% باستثناء الصبغة",
                 },
                 brand6: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 15%، الذهب: 15%، مميز: 15% باستثناء الصبغة",
                 },
                 brand7: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 25%، الذهب: 25%، مميز: 25%",
                 },
                 brand8: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "خصم من 5% إلى 15% على جميع العضويات",
                 },
                 brand9: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment:
+                    "25% على الفحص - 15% على الغرسات وتقويم الأسنان والخدمات الأخرى",
+                },
+                brand10: {
+                  comment: "خصم من 20% إلى 50% على جميع العضويات",
+                },
+                brand11: {
+                  comment: "Silver: 30% , Gold: 30% , مميز: 30%",
+                },
+                brand12: {
+                  comment: "خصم من 20% إلى 50% على جميع العضويات",
+                },
+                brand13: {
+                  comment: "خصم من 20% إلى 50% على جميع العضويات",
+                },
+                brand14: {
+                  comment: "فضي: 25%، الذهب: 25%، مميز: 25%",
                 },
               },
             },
@@ -734,31 +690,14 @@ i18n.use(initReactI18next).init({
               desc: "مجموعة واسعة من الصالات الرياضية ومحلات الملابس الرياضية والمدربين الخاصين والمكملات الغذائية والمزيد من الخدمات في متناول يدك",
               brands: {
                 brand1: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 12.5%، الذهب: 12.5%، مميز: 12.5%",
                 },
                 brand2: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment:
+                    "12% على الملخصات - 10% على القرطاسية وألعاب الأطفال",
                 },
                 brand3: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand4: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand5: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand6: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand7: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand8: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand9: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "من 10% إلى 20%",
                 },
               },
             },
@@ -767,31 +706,16 @@ i18n.use(initReactI18next).init({
               desc: "مجموعة واسعة من الصالات الرياضية ومحلات الملابس الرياضية والمدربين الخاصين والمكملات الغذائية والمزيد من الخدمات في متناول يدك",
               brands: {
                 brand1: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 10% , ذهبي: 10% , مميز: 10%",
                 },
                 brand2: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 15% , ذهبي: 17.5% , مميز: 20%",
                 },
                 brand3: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 40% , ذهبي: 45% , مميز: 50%",
                 },
                 brand4: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand5: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand6: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand7: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand8: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand9: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 20% , ذهبي: 20% , مميز: 20%",
                 },
               },
             },
@@ -800,31 +724,16 @@ i18n.use(initReactI18next).init({
               desc: "لسيداتنا الجميلات، نقدم كل ما ستحتاجينه للتألق مثل الملكة، أفضل مستحضرات التجميل بأفضل الأسعار",
               brands: {
                 brand1: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "مميز : 25%",
                 },
                 brand2: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 10%، الذهب: 10%، مميز: 10% باستثناء الورق",
                 },
                 brand3: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "من 5% إلى 20% على السعر الأساسي، باستثناء العروض",
                 },
                 brand4: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand5: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand6: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand7: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand8: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand9: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "35% إلى 50% لجميع العضويات",
                 },
               },
             },
@@ -833,31 +742,45 @@ i18n.use(initReactI18next).init({
               desc: "تضمن خدمتنا الاستمتاع بوجباتك المفضلة بتكلفة أقل. نتعاون مع أفضل المطاعم لتقديم عروض حصرية. وفر المال أثناء تناول الطعام اللذيذ. استمتع بأفضل خيارات الطعام بأسعار لا تقاوم.",
               brands: {
                 brand1: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 15%، الذهب: 15%، مميز: 15%",
                 },
                 brand2: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 15%، الذهبي: 15%، مميز: 15% العروض غير متضمنة",
                 },
                 brand3: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 10%، الذهب: 15%، مميز: 20%",
                 },
                 brand4: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment:
+                    "10% على الإفطار والحلويات و15% على المشروبات والوافلز والآيس كريم",
                 },
                 brand5: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "خصم 10% على المطاعم والكافيهات - خصم مميز",
                 },
                 brand6: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 10%، الذهب: 15%، مميز: 20%",
                 },
                 brand7: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 15%، الذهب: 15%، مميز: 15%",
                 },
                 brand8: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "خصم 12% على المعرض والتوصيل مجاني بدون خصم",
                 },
                 brand9: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment:
+                    "10% على الطلبات الخارجية - 15% على الصالة - توصيل مجاني",
+                },
+                brand10: {
+                  comment: "فضي: 12%، الذهب: 12%، مميز: 12%",
+                },
+                brand11: {
+                  comment: "فضي: 10%، الذهب: 10%، مميز: 10%",
+                },
+                brand12: {
+                  comment: "خصم 15% على المشروبات - خصم 10% على جميع الخدمات",
+                },
+                brand13: {
+                  comment: "10% على المواد الخام - 20% على المشروبات",
                 },
               },
             },
@@ -866,31 +789,30 @@ i18n.use(initReactI18next).init({
               desc: "شراء أزياءك المفضلة بأسعار مخفضة. نتعاون مع أفضل العلامات التجارية للملابس لتقديم عروض حصرية. وفر المال بينما تبقى أنيقًا وعصريًا. استمتع بأفضل خيارات الموضة بأسعار لا تقاوم.",
               brands: {
                 brand1: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment:
+                    "الفضي: 0%، الذهبي: 5%، VIP: 5% أضف إلى نسبة الخصم المتوفرة في الفرع",
                 },
                 brand2: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment:
+                    "الفضي: 0%، الذهبي: 5%، VIP: 5% أضف إلى نسبة الخصم المتوفرة في الفرع",
                 },
                 brand3: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 40% , ذهبي: 45% , مميز: 50%",
                 },
                 brand4: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 40% , ذهبي: 45% , مميز: 50%",
                 },
                 brand5: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 10%، الذهب: 10%، مميز: 15%",
                 },
                 brand6: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 10% , ذهبي: 15% , مميز: 20%",
                 },
                 brand7: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 10% , ذهبي: 15% , مميز: 20%",
                 },
                 brand8: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand9: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "10% على الإكسسوارات - 15% على الملابس",
                 },
               },
             },
@@ -899,31 +821,25 @@ i18n.use(initReactI18next).init({
               desc: "ستجد هنا العلامات التجارية التي تقدم الخدمات التي ستحتاجها طوال يومك، سواء كانت سيارتك تحتاج إلى زيت أو كنت تشتري ملابس جديدة، فستكون دائمًا هنا للحصول على أفضل جودة وأفضل سعر في السوق",
               brands: {
                 brand1: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "لم يتم العثور عليه",
                 },
                 brand2: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment:
+                    "خصم 5% على قاعة المؤتمرات - خصم 7% على غرف الفندق - خصم مميز",
                 },
                 brand3: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment:
+                    "فضي: 10%، الذهبي: 10%، مميز: 12.5% ​​باستثناء الوجبات الخفيفة والمشروبات",
                 },
                 brand4: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "الفضة: 10%، الذهب: 15%، مميز: 15% إلى 20%",
                 },
                 brand5: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "لم يتم العثور عليه",
                 },
                 brand6: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand7: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand8: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand9: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment:
+                    "فضي: 15%، الذهبي: 20%، مميز: 25% باستثناء الهواتف المحمولة",
                 },
               },
             },
@@ -932,31 +848,7 @@ i18n.use(initReactI18next).init({
               desc: "تتيح لك خدمتنا التسوق لشراء منتجاتك المفضلة بأسعار مخفضة. نتعاون مع أفضل المتاجر الإلكترونية لتقديم عروض حصرية. وفر المال أثناء الاستمتاع بتجربة تسوق مريحة. استمتع بأفضل خيارات التسوق عبر الإنترنت بأسعار لا تقاوم.",
               brands: {
                 brand1: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand2: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand3: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand4: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand5: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand6: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand7: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand8: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
-                },
-                brand9: {
-                  comment: "فضي: 10.0% , ذهبي: 15.0% , مميز: 20.0%",
+                  comment: "فضي: 10% , ذهبي: 20% , مميز: 30%",
                 },
               },
             },

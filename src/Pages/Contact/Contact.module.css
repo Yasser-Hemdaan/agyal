@@ -1,0 +1,34 @@
+.allContactInputs input,
+.allContactInputs textarea {
+  padding: 15px;
+  border: var(--tan) 1px solid;
+}
+
+.allContactInputs input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: var(--tan) 1px solid;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: end;
+}
+
+.submitBtn .btn {
+  background-color: var(--tan);
+  color: var(--black);
+}
+
+.accordion-button::after {
+  margin-left: 10px;
+}
+
+.accordion[dir="rtl"] .accordion-button::after {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.accordion[dir="rtl"] .accordion-button {
+  text-align: right;
+}

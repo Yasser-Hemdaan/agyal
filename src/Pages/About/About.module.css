@@ -1,0 +1,43 @@
+.aboutUs {
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutUs::before {
+  content: "";
+  background-image: url(/public/icon.png);
+  background-size: cover;
+  background-attachment: initial;
+  background-position: center center;
+  position: absolute;
+  top: 0px;
+  right: -700px;
+  width: 1500px;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.075;
+}
+
+.aboutUs p {
+  font-size: clamp(10px, 3vw, 16px);
+  color: var(--black);
+  text-align: center;
+  max-width: 992px;
+}
+
+.whyChooseUs .item {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px !important;
+  padding: 50px !important;
+}
+.whyChooseUs .item img {
+  width: 100px;
+}
+
+.whyChooseUs .itemContent {
+  text-align: center;
+}
+
+.whyChooseUs .itemContent h3 {
+  font-size: 35px;
+}

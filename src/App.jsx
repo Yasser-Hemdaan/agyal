@@ -12,6 +12,7 @@ import About from "./Pages/About/About";
 import Fields from "./Pages/Fields/Fields";
 import Contact from "./Pages/Contact/Contact";
 import Testmonials from "./Pages/Testmonials/Testmonials";
+import Landing from "./Pages/Landing/Landing";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/fields" element={<Fields />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/testmonials" element={<Testmonials />} />
+            <Route path="/landing" element={<Landing />} />
           </Routes>
           <Footer />
         </Router>

@@ -6,8 +6,8 @@ import Carousel from "react-multi-carousel";
 
 // images
 import person1 from "/public/opinions/person.jpg";
-import person2 from "/public/opinions/person.jpg";
-import person3 from "/public/opinions/person.jpg";
+// import person2 from "/public/opinions/person.jpg";
+// import person3 from "/public/opinions/person.jpg";
 
 const responsive = {
   desktop: {
@@ -58,10 +58,10 @@ const Opinions = () => {
           <div className={`w-100 `}>
             <Carousel
               swipeable={true}
-              draggable={true}
+              draggable={false}
               ssr={true}
               infinite={true}
-              autoPlay={true}
+              autoPlay={false}
               autoPlaySpeed={1750}
               removeArrowOnDeviceType={[
                 "desktop",
@@ -107,14 +107,20 @@ const Opinions = () => {
                   data-aos="fade-up"
                   data-aos-duration="750"
                 >
-                  <p className={`${i18n.language === "ar" ? "semiBoldArFont" : "semiBoldEnFont"} text-center w-75  mx-auto my-2`}>
+                  <p
+                    className={`${
+                      i18n.language === "ar"
+                        ? "semiBoldArFont"
+                        : "semiBoldEnFont"
+                    } text-center w-75  mx-auto my-2`}
+                  >
                     {t(
                       "home.opinionsWrapper.opinions.person1.opinionDescription"
                     )}
                   </p>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="item w-100 gap-2"
                 data-aos="fade-left"
                 data-aos-duration="750"
@@ -195,7 +201,7 @@ const Opinions = () => {
                     )}
                   </p>
                 </div>
-              </div>
+              </div> */}
             </Carousel>
           </div>
         </div>

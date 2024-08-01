@@ -25,16 +25,57 @@ import perfumes from "/public/fields/perfumes.png";
 import shop from "/public/fields/shop.png";
 import online from "/public/fields/online.png";
 
+/*
+
+1- مستشفى روڤان
+2-مستشفى دار الشفاء 
+3-مستشفى 12 خطوه
+4-معامل سيدار
+5-صيدليات اسامه عبد البديع
+6-مركز نفادى للأشعه
+7-سمارت سكان
+8-محارب جيم
+9-MB
+10-اسلام ستور
+11-فلاورز بيوتى سنتر  
+12-Skin care house
+13-سيلا
+14-تشيكن وينز
+15-دابل ديز
+16-هيلث لايف
+17-بيلا
+18-رشة كنافه
+19-Green Eyes 
+20-هانيبال 
+21-رويال چيت  
+22-Silver Store 
+23-Bun & Beat
+24-السلطان ايوب
+25-ستيكا
+26-اكاديميه بيرفكت
+27-مكتبه بنسلز
+28-مكتبات البيان
+29-موبيليات القاضى
+30-قاعة لاڤيستا
+31-////// ايڤيت
+32-لولى بوب
+33-Bets & Bets
+34-////// صاحب السعاده
+35-كراكيب
+36-اكسسوارات المستر
+
+*/
+
 // parteners
-import partener1 from "/public/parteners/01.jpg";
-import partener2 from "/public/parteners/02.jpg";
-import partener3 from "/public/parteners/03.jpg";
-import partener4 from "/public/parteners/04.jpg";
-import partener5 from "/public/parteners/05.jpg";
-import partener6 from "/public/parteners/06.jpg";
-import partener7 from "/public/parteners/07.jpg";
-import partener8 from "/public/parteners/08.jpg";
-import partener9 from "/public/parteners/09.jpg";
+import partener1 from "/public/parteners/1.jpg";
+import partener2 from "/public/parteners/2.jpg";
+import partener3 from "/public/parteners/3.jpg";
+import partener4 from "/public/parteners/4.jpg";
+import partener5 from "/public/parteners/5.jpg";
+import partener6 from "/public/parteners/6.jpg";
+import partener7 from "/public/parteners/7.jpg";
+import partener8 from "/public/parteners/8.jpg";
+import partener9 from "/public/parteners/9.jpg";
 import partener10 from "/public/parteners/10.jpg";
 import partener11 from "/public/parteners/11.jpg";
 import partener12 from "/public/parteners/12.jpg";
@@ -44,6 +85,24 @@ import partener15 from "/public/parteners/15.jpg";
 import partener16 from "/public/parteners/16.jpg";
 import partener17 from "/public/parteners/17.jpg";
 import partener18 from "/public/parteners/18.jpg";
+import partener19 from "/public/parteners/19.jpg";
+import partener20 from "/public/parteners/20.jpg";
+import partener21 from "/public/parteners/21.jpg";
+import partener22 from "/public/parteners/22.jpg";
+import partener23 from "/public/parteners/23.jpg";
+import partener24 from "/public/parteners/24.jpg";
+import partener25 from "/public/parteners/25.jpg";
+import partener26 from "/public/parteners/26.jpg";
+import partener27 from "/public/parteners/27.jpg";
+import partener28 from "/public/parteners/28.jpg";
+import partener29 from "/public/parteners/29.jpg";
+import partener30 from "/public/parteners/30.jpg";
+import partener31 from "/public/parteners/x.jpg";
+import partener32 from "/public/parteners/32.jpg";
+import partener33 from "/public/parteners/33.jpg";
+import partener34 from "/public/parteners/x.jpg";
+import partener35 from "/public/parteners/35.jpg";
+import partener36 from "/public/parteners/36.jpg";
 
 const partners = [
   partener1,
@@ -64,24 +123,25 @@ const partners = [
   partener16,
   partener17,
   partener18,
-  partener1,
-  partener2,
-  partener3,
-  partener4,
-  partener5,
-  partener6,
-  partener7,
-  partener8,
-  partener9,
-  partener10,
-  partener11,
-  partener12,
-  partener13,
-  partener14,
-  partener15,
-  partener16,
-  partener17,
-  partener18,
+  partener19,
+  partener20,
+  partener21,
+  partener22,
+  partener23,
+  partener24,
+  partener25,
+  partener26,
+  partener27,
+  partener28,
+  partener29,
+  partener30,
+  partener31,
+  partener32,
+  partener33,
+  partener34,
+  partener35,
+  partener36,
+
   // ... add all partner image variables here
 ];
 // carousrel

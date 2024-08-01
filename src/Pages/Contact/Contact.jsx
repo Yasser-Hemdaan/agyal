@@ -1,6 +1,7 @@
 // import React from 'react'
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import emailjs from "@emailjs/browser";
 
 // css
 import styles from "./Contact.module.css";
@@ -22,6 +23,41 @@ const Contact = () => {
       duration: 600,
     });
   }, []);
+
+  const form = useRef();
+
+  const [userName, setUserName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [isSuccessMessage, setIsSuccessMessage] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    setIsSuccessMessage(true);
+
+    setUserName("");
+    setPhone("");
+    setEmail("");
+    setMessage("");
+
+    emailjs
+      .sendForm(
+        "service_ejxnsdf",
+        "template_9parp7j",
+        form.current,
+        "JR9tVyoPLDJWeTjlV"
+      )
+      .then(
+        () => {},
+        () => {}
+      );
+    setTimeout(function () {
+      setIsSuccessMessage(false);
+    }, 5000);
+  };
+
   const { t, i18n } = useTranslation();
   return (
     <div
@@ -30,6 +66,13 @@ const Contact = () => {
       }`}
       dir={i18n.language === "ar" ? "rtl" : "ltr"}
     >
+      {isSuccessMessage && (
+        <div className={styles.successMessage}>
+          <p>Your email is sent</p>
+          <i className="fa-regular fa-circle-check"></i>
+        </div>
+      )}
+
       <div className={`hero`}>
         <picture>
           <img src={hero} alt="" />
@@ -53,7 +96,13 @@ const Contact = () => {
             ></span>
           </h1>
         </div>
-        <div className={`${styles.allContactInputs} row g-3 my-4`}>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          data-aos={i18n.language === "ar" ? "fade-left" : "fade-right"}
+          data-aos-delay="250"
+          className={`${styles.allContactInputs} row g-3 my-4`}
+        >
           <input
             data-aos="fade-left"
             data-aos-duration="750"
@@ -64,6 +113,9 @@ const Contact = () => {
             aria-label="Name"
             aria-describedby="basic-addon1"
             pattern="^[a-zA-Z]{3,}(?:[a-zA-Z]+)?$"
+            name="from_Uname"
+            value={userName}
+            onChange={(e) => setUserName(e.target.value)}
           />
           <input
             data-aos="fade-right"
@@ -76,6 +128,9 @@ const Contact = () => {
             aria-describedby="basic-addon1"
             pattern="^(?:\+\d{1,3})?(?:\s?\(\d{3}\)\s?|\d{3}[-\s]?)\d{3}[-\s]?\d{4}$"
             dir={i18n.language === "ar" ? "rtl" : "ltr"}
+            name="from_phone"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
           />
           <input
             data-aos="fade-left"
@@ -87,6 +142,9 @@ const Contact = () => {
             aria-label="Email"
             aria-describedby="basic-addon1"
             pattern="^\w{3,}@([a-zA-Z]{3,})((\.[a-zA-Z]{2,})+)$"
+            name="from_email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
           <textarea
             data-aos="fade-right"
@@ -97,6 +155,9 @@ const Contact = () => {
             aria-label="With textarea"
             placeholder={t("contact.form.message")}
             pattern="^[\w]{2,}(?:[\w]+)?$"
+            name="from_message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
           ></textarea>
 
           <div
@@ -109,7 +170,7 @@ const Contact = () => {
               {t("contact.form.send")}
             </button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );

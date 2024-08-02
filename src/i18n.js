@@ -361,7 +361,7 @@ i18n.use(initReactI18next).init({
               desc: "Here You Will Find Brands Who Provide Services You Will Need Through Out Your Day, Whether Your Car Needs Oil Or You're Buying New Clothes It Will Always Be Here For The Better Quality And The Best Price In The Market.",
               brands: {
                 brand1: {
-                  comment: "not found in excell sheet",
+                  comment: "",
                 },
                 brand2: {
                   comment:
@@ -375,7 +375,7 @@ i18n.use(initReactI18next).init({
                   comment: "Silver: 10% , Gold: 15% , VIP: 15% to 20%",
                 },
                 brand5: {
-                  comment: "not found in excell sheet",
+                  comment: "",
                 },
                 brand6: {
                   comment:
@@ -821,7 +821,7 @@ i18n.use(initReactI18next).init({
               desc: "ستجد هنا العلامات التجارية التي تقدم الخدمات التي ستحتاجها طوال يومك، سواء كانت سيارتك تحتاج إلى زيت أو كنت تشتري ملابس جديدة، فستكون دائمًا هنا للحصول على أفضل جودة وأفضل سعر في السوق",
               brands: {
                 brand1: {
-                  comment: "لم يتم العثور عليه",
+                  comment: "",
                 },
                 brand2: {
                   comment:
@@ -835,7 +835,7 @@ i18n.use(initReactI18next).init({
                   comment: "الفضة: 10%، الذهب: 15%، مميز: 15% إلى 20%",
                 },
                 brand5: {
-                  comment: "لم يتم العثور عليه",
+                  comment: "",
                 },
                 brand6: {
                   comment:

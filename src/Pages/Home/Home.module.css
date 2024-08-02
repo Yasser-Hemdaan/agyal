@@ -96,8 +96,6 @@
 }
 
 .parteners img {
-  filter: grayscale(0.9);
-  -webkit-filter: grayscale(0.9);
   transition: 0.2s all ease-in-out;
   -webkit-transition: 0.2s all ease-in-out;
   -moz-transition: 0.2s all ease-in-out;
@@ -113,8 +111,6 @@
 }
 
 .parteners img:hover {
-  filter: grayscale(0);
-  -webkit-filter: grayscale(0);
   box-shadow: rgba(99, 99, 99, 0.8) 0px 2px 8px 0px !important;
 }
 

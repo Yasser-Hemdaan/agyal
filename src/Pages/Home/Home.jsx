@@ -36,7 +36,7 @@ import online from "/public/fields/online.png";
 7-سمارت سكان
 8-محارب جيم
 9-MB
-10-اسلام ستور
+10-////// اسلام ستور
 11-فلاورز بيوتى سنتر  
 12-Skin care house
 13-سيلا
@@ -57,10 +57,10 @@ import online from "/public/fields/online.png";
 28-مكتبات البيان
 29-موبيليات القاضى
 30-قاعة لاڤيستا
-31-////// ايڤيت
+31-اصايل للعطور
 32-لولى بوب
 33-Bets & Bets
-34-////// صاحب السعاده
+34-صاحب السعاده
 35-كراكيب
 36-اكسسوارات المستر
 
@@ -97,10 +97,10 @@ import partener27 from "/public/parteners/27.jpg";
 import partener28 from "/public/parteners/28.jpg";
 import partener29 from "/public/parteners/29.jpg";
 import partener30 from "/public/parteners/30.jpg";
-import partener31 from "/public/parteners/x.jpg";
+import partener31 from "/public/parteners/31.jpg";
 import partener32 from "/public/parteners/32.jpg";
 import partener33 from "/public/parteners/33.jpg";
-import partener34 from "/public/parteners/x.jpg";
+import partener34 from "/public/parteners/34.jpg";
 import partener35 from "/public/parteners/35.jpg";
 import partener36 from "/public/parteners/36.jpg";
 
@@ -502,7 +502,7 @@ const Home = () => {
           </div>
 
           <div className="goldenBtn" data-aos="fade-up" data-aos-duration="750">
-            <NavLink to="/about">
+            <NavLink to="/fields">
               <button className="btn m-auto my-4">{t("buttons.more")}</button>
             </NavLink>
           </div>

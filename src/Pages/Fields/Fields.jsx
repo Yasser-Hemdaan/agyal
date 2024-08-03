@@ -14,6 +14,18 @@ import hero from "../../assets/images/fields/hero.jpg";
 
 const medicalBrands = [
   {
+    src: "cates/medical/1.jpg",
+    commentKey: "fields.category.medical.brands.brand1.comment",
+  },
+  {
+    src: "cates/medical/2.jpg",
+    commentKey: "fields.category.medical.brands.brand2.comment",
+  },
+  {
+    src: "cates/medical/3.jpg",
+    commentKey: "fields.category.medical.brands.brand3.comment",
+  },
+  {
     src: "cates/medical/4.jpg",
     commentKey: "fields.category.medical.brands.brand4.comment",
   },
@@ -72,6 +84,10 @@ const educationalBrands = [
     src: "cates/edu/3.jpg",
     commentKey: "fields.category.educational.brands.brand3.comment",
   },
+  {
+    src: "cates/edu/4.jpg",
+    commentKey: "fields.category.educational.brands.brand4.comment",
+  },
 ];
 
 const sportsBrands = [
@@ -109,6 +125,22 @@ const perfumesBeautyBrands = [
   {
     src: "cates/beauty/4.jpg",
     commentKey: "fields.category.perfumesBeauty.brands.brand4.comment",
+  },
+  {
+    src: "cates/beauty/5.jpg",
+    commentKey: "fields.category.perfumesBeauty.brands.brand5.comment",
+  },
+  {
+    src: "cates/beauty/6.jpg",
+    commentKey: "fields.category.perfumesBeauty.brands.brand6.comment",
+  },
+  {
+    src: "cates/beauty/7.jpg",
+    commentKey: "fields.category.perfumesBeauty.brands.brand7.comment",
+  },
+  {
+    src: "cates/beauty/8.jpg",
+    commentKey: "fields.category.perfumesBeauty.brands.brand8.comment",
   },
 ];
 
@@ -165,6 +197,34 @@ const cafeRestaurantBrands = [
     src: "cates/resturant/13.jpg",
     commentKey: "fields.category.cafeRestaurant.brands.brand13.comment",
   },
+  {
+    src: "cates/resturant/14.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand14.comment",
+  },
+  {
+    src: "cates/resturant/15.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand15.comment",
+  },
+  {
+    src: "cates/resturant/16.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand16.comment",
+  },
+  {
+    src: "cates/resturant/17.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand17.comment",
+  },
+  {
+    src: "cates/resturant/18.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand18.comment",
+  },
+  {
+    src: "cates/resturant/19.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand19.comment",
+  },
+  {
+    src: "cates/resturant/20.jpg",
+    commentKey: "fields.category.cafeRestaurant.brands.brand20.comment",
+  },
 ];
 
 const clothesBrands = [
@@ -194,11 +254,15 @@ const clothesBrands = [
   },
   {
     src: "cates/clothes/7.jpg",
-    commentKey: "fields.category.clothes.brands.brand6.comment",
+    commentKey: "fields.category.clothes.brands.brand7.comment",
   },
   {
     src: "cates/clothes/8.jpg",
-    commentKey: "fields.category.clothes.brands.brand6.comment",
+    commentKey: "fields.category.clothes.brands.brand8.comment",
+  },
+  {
+    src: "cates/clothes/9.jpg",
+    commentKey: "fields.category.clothes.brands.brand9.comment",
   },
 ];
 
@@ -227,12 +291,44 @@ const variousBrands = [
     src: "cates/various/6.jpg",
     commentKey: "fields.category.various.brands.brand6.comment",
   },
+  {
+    src: "cates/various/7.jpg",
+    commentKey: "fields.category.various.brands.brand7.comment",
+  },
+  {
+    src: "cates/various/8.jpg",
+    commentKey: "fields.category.various.brands.brand8.comment",
+  },
+  {
+    src: "cates/various/9.jpg",
+    commentKey: "fields.category.various.brands.brand9.comment",
+  },
+  {
+    src: "cates/various/10.jpg",
+    commentKey: "fields.category.various.brands.brand10.comment",
+  },
+  {
+    src: "cates/various/11.jpg",
+    commentKey: "fields.category.various.brands.brand11.comment",
+  },
+  {
+    src: "cates/various/12.jpg",
+    commentKey: "fields.category.various.brands.brand12.comment",
+  },
 ];
 
 const onlineBrands = [
   {
     src: "cates/online/1.jpg",
     commentKey: "fields.category.online.brands.brand1.comment",
+  },
+  {
+    src: "cates/online/2.jpg",
+    commentKey: "fields.category.online.brands.brand2.comment",
+  },
+  {
+    src: "cates/online/3.jpg",
+    commentKey: "fields.category.online.brands.brand3.comment",
   },
 ];
 

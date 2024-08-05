@@ -1,9 +1,9 @@
 .aboutUs {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-.aboutUs::before {
+/* .aboutUs::before {
   content: "";
   background-image: url(/public/icon.png);
   background-size: cover;
@@ -16,13 +16,17 @@
   height: 100%;
   z-index: -1;
   opacity: 0.075;
-}
+} */
 
 .aboutUs p {
   font-size: clamp(10px, 3vw, 16px);
   color: var(--black);
   text-align: center;
   max-width: 992px;
+}
+
+.whyChooseUs {
+  overflow-x: hidden;
 }
 
 .whyChooseUs .item {

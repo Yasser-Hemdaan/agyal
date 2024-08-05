@@ -4,7 +4,7 @@
 }
 
 .aboutUs::before {
-  content: "";
+  /* content: "";
   background-image: url(/public/icon.png);
   background-size: cover;
   background-attachment: initial;
@@ -15,7 +15,7 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.075;
+  opacity: 0.075; */
 }
 
 .aboutUs p {
@@ -117,22 +117,20 @@
 /* Statistics */
 
 .statistics {
+  overflow-x: hidden;
   background-color: var(--grey);
 }
 
 .allStatistics .item h1 {
   /* font-size: clamp(45px , 3vw ,60px); */
   font-size: 60px;
-  font-family: MMedium;
   margin: 0;
 }
 
 .allStatistics .item span {
   font-size: 30px;
-  font-family: MMedium;
 }
 
 .allStatistics .item p {
-  font-family: MMedium;
   text-transform: capitalize;
 }

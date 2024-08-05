@@ -168,7 +168,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
       <div className={`py-5`}>
         <div className="customContainer">
           <div

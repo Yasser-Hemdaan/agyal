@@ -1,6 +1,7 @@
 // import React from 'react'
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 
 // css
 import styles from "./About.module.css";
@@ -34,6 +35,9 @@ const About = () => {
       }`}
       dir={i18n.language === "ar" ? "rtl" : "ltr"}
     >
+      <Helmet>
+        <title>About</title>
+      </Helmet>
       <div className={`hero`}>
         <picture>
           <img src={hero} alt="" />

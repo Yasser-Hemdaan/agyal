@@ -4,6 +4,7 @@
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async"; // Import Helmet
 
 // css
 import styles from "./Home.module.css";
@@ -192,6 +193,9 @@ const Home = () => {
       }`}
       dir={i18n.language === "ar" ? "rtl" : "ltr"}
     >
+      <Helmet>
+        <title>Agyal</title>
+      </Helmet>
       <div className={`hero`}>
         <picture>
           <img src={hero} alt="" />

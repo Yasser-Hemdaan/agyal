@@ -92,7 +92,7 @@ i18n.use(initReactI18next).init({
                 title: "surveys taken",
               },
               partenersItem: {
-                number: "137",
+                number: "97",
                 title: "parteners count",
               },
               servicesItem: {
@@ -643,7 +643,7 @@ i18n.use(initReactI18next).init({
                 title: "الإستطلاعات المأخوذة",
               },
               partenersItem: {
-                number: "137",
+                number: "97",
                 title: "عدد الشركاء",
               },
               servicesItem: {

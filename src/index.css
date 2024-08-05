@@ -14,7 +14,7 @@
   scroll-behavior: smooth;
 }
 
-body {
+html {
   overflow-x: hidden;
 }
 
@@ -216,8 +216,14 @@ textarea {
   resize: none !important;
 }
 
-::-webkit-scrollbar {
-  width: 0;
+/* error */
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error img {
+  
 }
 
 /* Custom container */
@@ -287,7 +293,7 @@ textarea {
     top: -100vh;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: var(--black);
     display: flex;

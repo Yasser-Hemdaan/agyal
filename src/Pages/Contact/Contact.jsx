@@ -1,6 +1,7 @@
 // import React from 'react'
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 import emailjs from "@emailjs/browser";
 
 // css
@@ -66,6 +67,10 @@ const Contact = () => {
       }`}
       dir={i18n.language === "ar" ? "rtl" : "ltr"}
     >
+      <Helmet>
+        <title>Contact</title>
+      </Helmet>
+
       {isSuccessMessage && (
         <div className={styles.successMessage}>
           <p>Your email is sent</p>

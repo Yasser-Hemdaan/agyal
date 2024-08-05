@@ -1,6 +1,7 @@
 // import React from 'react'
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 
 // aos
 import AOS from "aos";
@@ -30,6 +31,9 @@ const Testmonials = () => {
       }`}
       dir={i18n.language === "ar" ? "rtl" : "ltr"}
     >
+      <Helmet>
+        <title>Testmonials</title>
+      </Helmet>
       <div className={`hero`}>
         <picture>
           <img src={hero} alt="" />

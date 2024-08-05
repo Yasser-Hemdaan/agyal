@@ -1,6 +1,7 @@
 // import React from "react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 
 // css
 import styles from "./Fields.module.css";
@@ -350,6 +351,9 @@ const Fields = () => {
       }`}
       dir={i18n.language === "ar" ? "rtl" : "ltr"}
     >
+      <Helmet>
+        <title>Fields</title>
+      </Helmet>
       <div className="hero">
         <picture>
           <img src={hero} alt="" />

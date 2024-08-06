@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
+import { useLocation } from "react-router-dom";
 
 // css
 import styles from "./Fields.module.css";
@@ -69,6 +70,18 @@ const medicalBrands = [
   {
     src: "cates/medical/14.jpg",
     commentKey: "fields.category.medical.brands.brand14.comment",
+  },
+  {
+    src: "cates/medical/15.jpg",
+    commentKey: "fields.category.medical.brands.brand15.comment",
+  },
+  {
+    src: "cates/medical/16.jpg",
+    commentKey: "fields.category.medical.brands.brand16.comment",
+  },
+  {
+    src: "cates/medical/17.jpg",
+    commentKey: "fields.category.medical.brands.brand17.comment",
   },
 ];
 
@@ -316,6 +329,10 @@ const variousBrands = [
     src: "cates/various/12.jpg",
     commentKey: "fields.category.various.brands.brand12.comment",
   },
+  {
+    src: "cates/various/13.jpg",
+    commentKey: "fields.category.various.brands.brand13.comment",
+  },
 ];
 
 const onlineBrands = [
@@ -334,6 +351,7 @@ const onlineBrands = [
 ];
 
 const Fields = () => {
+  const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
     // Scroll to the top when the component is mounted or re-rendered
@@ -342,7 +360,14 @@ const Fields = () => {
       delay: 300,
       duration: 600,
     });
-  }, []);
+    const hash = location.hash.replace("#", "");
+    if (hash) {
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
   const { t, i18n } = useTranslation();
   return (
     <div
@@ -363,7 +388,7 @@ const Fields = () => {
       <div className={`${styles.allFields} py-5`}>
         <div className="customContainer">
           {/* medical */}
-          <div className={`${styles.fieldItem} my-5`}>
+          <div className={`${styles.fieldItem} my-5 pt-5`} id="medical">
             <div
               className="specialTitle mt-2 mb-5"
               data-aos="fade-down"
@@ -403,7 +428,7 @@ const Fields = () => {
             </div>
           </div>
           {/* Educational */}
-          <div className={`${styles.fieldItem} my-5`}>
+          <div className={`${styles.fieldItem} my-5 pt-5`} id="educational">
             <div
               className="specialTitle mt-2 mb-5"
               data-aos="fade-down"
@@ -443,7 +468,7 @@ const Fields = () => {
             </div>
           </div>
           {/* Sports */}
-          <div className={`${styles.fieldItem} my-5`}>
+          <div className={`${styles.fieldItem} my-5 pt-5`} id="sports">
             <div
               className="specialTitle mt-2 mb-5"
               data-aos="fade-down"
@@ -483,7 +508,7 @@ const Fields = () => {
             </div>
           </div>
           {/* Beauty and Perfumes */}
-          <div className={`${styles.fieldItem} my-5`}>
+          <div className={`${styles.fieldItem} my-5 pt-5`} id="beauty">
             <div
               className="specialTitle mt-2 mb-5"
               data-aos="fade-down"
@@ -523,7 +548,7 @@ const Fields = () => {
             </div>
           </div>
           {/* Restaurant and Cafe */}
-          <div className={`${styles.fieldItem} my-5`}>
+          <div className={`${styles.fieldItem} my-5 pt-5`} id="restaurant">
             <div
               className="specialTitle mt-2 mb-5"
               data-aos="fade-down"
@@ -563,7 +588,7 @@ const Fields = () => {
             </div>
           </div>
           {/* Clothes */}
-          <div className={`${styles.fieldItem} my-5`}>
+          <div className={`${styles.fieldItem} my-5 pt-5`} id="clothes">
             <div
               className="specialTitle mt-2 mb-5"
               data-aos="fade-down"
@@ -603,7 +628,7 @@ const Fields = () => {
             </div>
           </div>
           {/* Various */}
-          <div className={`${styles.fieldItem} my-5`}>
+          <div className={`${styles.fieldItem} my-5 pt-5`} id="various">
             <div
               className="specialTitle mt-2 mb-5"
               data-aos="fade-down"
@@ -643,7 +668,7 @@ const Fields = () => {
             </div>
           </div>
           {/* Online */}
-          <div className={`${styles.fieldItem} my-5`}>
+          <div className={`${styles.fieldItem} my-5 pt-5`} id="online">
             <div
               className="specialTitle mt-2 mb-5"
               data-aos="fade-down"

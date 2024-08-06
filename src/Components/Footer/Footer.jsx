@@ -1,10 +1,15 @@
-// import React from 'react'
-
-import { NavLink } from "react-router-dom";
+// import React from 'react';
+import { NavLink, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+
+  const handleNavigation = (sectionId) => {
+    navigate(`/fields#${sectionId}`);
+  };
+
   return (
     <div
       className={`${
@@ -28,13 +33,20 @@ const Footer = () => {
               <p>{t("footer.main.description")}</p>
               <div className="socialMediaIcons">
                 <ul className="d-flex gap-3 p-0">
-                  <a href="https://www.facebook.com/agyal.eg/" target="_blank">
+                  <a
+                    href="https://www.facebook.com/agyal.eg/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <li>
                       <i className="fa-brands fa-facebook-f"></i>
                     </li>
                   </a>
-
-                  <a href="https://wa.me/201507447466" target="_blank">
+                  <a
+                    href="https://wa.me/201507447466"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <li>
                       <i className="fa-brands fa-whatsapp"></i>
                     </li>
@@ -42,12 +54,17 @@ const Footer = () => {
                   <a
                     href="https://www.instagram.com/agyal_8?igsh=MWd0ajF0NDVpNGdtZQ%3D%3D&utm_source=qr"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <li>
                       <i className="fa-brands fa-instagram"></i>
                     </li>
                   </a>
-                  <a href="https://www.tiktok.com/@agyal3?_t=8o59avKMCSg&_r=1">
+                  <a
+                    href="https://www.tiktok.com/@agyal3?_t=8o59avKMCSg&_r=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <li>
                       <i className="fa-brands fa-tiktok"></i>
                     </li>
@@ -55,6 +72,7 @@ const Footer = () => {
                   <a
                     href="https://www.linkedin.com/company/agyal/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <li>
                       <i className="fa-brands fa-linkedin-in"></i>
@@ -110,76 +128,66 @@ const Footer = () => {
                 </h5>
               </div>
               <div className="fieldsFooterBtn d-flex gap-1 flex-wrap">
-                <NavLink
-                  to="/fields"
-                  type="button"
+                <button
+                  onClick={() => handleNavigation("medical")}
                   className="btn goldenBtn p-1"
                 >
                   {t("footer.fields.pages.medical")}
-                </NavLink>
-                <NavLink
-                  to="/fields"
-                  type="button"
+                </button>
+                <button
+                  onClick={() => handleNavigation("educational")}
                   className="btn goldenBtn p-1"
                 >
                   {t("footer.fields.pages.educational")}
-                </NavLink>
-                <NavLink
-                  to="/fields"
-                  type="button"
+                </button>
+                <button
+                  onClick={() => handleNavigation("sports")}
                   className="btn goldenBtn p-1"
                 >
                   {t("footer.fields.pages.sports")}
-                </NavLink>
-                <NavLink
-                  to="/fields"
-                  type="button"
+                </button>
+                <button
+                  onClick={() => handleNavigation("beauty")}
                   className="btn goldenBtn p-1"
                 >
                   {t("footer.fields.pages.beauty")}
-                </NavLink>
-                <NavLink
-                  to="/fields"
-                  type="button"
+                </button>
+                <button
+                  onClick={() => handleNavigation("restaurant")}
                   className="btn goldenBtn p-1"
                 >
-                  {t("footer.fields.pages.resturant")}
-                </NavLink>
-                <NavLink
-                  to="/fields"
-                  type="button"
+                  {t("footer.fields.pages.restaurant")}
+                </button>
+                <button
+                  onClick={() => handleNavigation("restaurant")}
                   className="btn goldenBtn p-1"
                 >
                   {t("footer.fields.pages.cafe")}
-                </NavLink>
-                <NavLink
-                  to="/fields"
-                  type="button"
+                </button>
+                <button
+                  onClick={() => handleNavigation("clothes")}
                   className="btn goldenBtn p-1"
                 >
                   {t("footer.fields.pages.clothes")}
-                </NavLink>
-                <NavLink
-                  to="/fields"
-                  type="button"
+                </button>
+                <button
+                  onClick={() => handleNavigation("beauty")}
                   className="btn goldenBtn p-1"
                 >
                   {t("footer.fields.pages.perfumes")}
-                </NavLink>
-                <NavLink
-                  to="/fields"
-                  type="button"
+                </button>
+                <button
+                  onClick={() => handleNavigation("various")}
                   className="btn goldenBtn p-1"
                 >
                   {t("footer.fields.pages.various")}
-                </NavLink>
-                <NavLink
-                  to="/fields"
-                  type="button"
+                </button>
+                <button
+                  onClick={() => handleNavigation("online")}
                   className="btn goldenBtn p-1"
                 >
                   {t("footer.fields.pages.online")}
-                </NavLink>
+                </button>
               </div>
             </div>
             <div className="dayFooter col-xl-3 col-lg-6 col-sm-6">
@@ -195,27 +203,27 @@ const Footer = () => {
               <div className="allDays">
                 <div className="item d-flex gap-4">
                   <h6>{t("footer.openingHours.saturday")}</h6>
-                  <p>9am - 10pm</p>
+                  <p>10am - 11pm</p>
                 </div>
                 <div className="item d-flex gap-4">
                   <h6>{t("footer.openingHours.sunday")}</h6>
-                  <p>9am - 10pm</p>
+                  <p>10am - 11pm</p>
                 </div>
                 <div className="item d-flex gap-4">
                   <h6>{t("footer.openingHours.monday")}</h6>
-                  <p>9am - 10pm</p>
+                  <p>10am - 11pm</p>
                 </div>
                 <div className="item d-flex gap-4">
                   <h6>{t("footer.openingHours.tuesday")}</h6>
-                  <p>9am - 10pm</p>
+                  <p>10am - 11pm</p>
                 </div>
                 <div className="item d-flex gap-4">
                   <h6>{t("footer.openingHours.wednesday")}</h6>
-                  <p>9am - 10pm</p>
+                  <p>10am - 11pm</p>
                 </div>
                 <div className="item d-flex gap-4">
                   <h6>{t("footer.openingHours.thursday")}</h6>
-                  <p>9am - 10pm</p>
+                  <p>10am - 11pm</p>
                 </div>
                 <div className="item d-flex gap-4">
                   <h6>{t("footer.openingHours.friday")}</h6>
@@ -231,5 +239,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// كل يوم

@@ -92,7 +92,7 @@ i18n.use(initReactI18next).init({
                 title: "surveys taken",
               },
               partenersItem: {
-                number: "97",
+                number: "105",
                 title: "parteners count",
               },
               servicesItem: {
@@ -184,51 +184,58 @@ i18n.use(initReactI18next).init({
               desc: "Get Your Discounts Upon Visiting Our Medical Partners, Whether It's A Doctor's Appointment, A Laboratory, A Pharmacy And Many More Relevant Health Services.",
               brands: {
                 brand1: {
-                  comment:
-                    "Silver: 15% , Gold: 15% , VIP: 15% Internal and 15% , Gold: 15% , VIP: 20% external",
+                  comment: "15% Internal and 20% external for all members",
                 },
                 brand2: {
-                  comment:
-                    "Silver: 15% , Gold: 15% , VIP: 15% Internal and external",
+                  comment: "15% Internal and 15% external for all members",
                 },
                 brand3: {
-                  comment: "Silver: 20% , Gold: 20% , VIP: 20% ",
+                  comment: "20% for all members",
                 },
                 brand4: {
-                  comment: "Silver: 25% , Gold: 20% , VIP: 20% ",
+                  comment: "Silver: 25% , Gold: 20% , VIP: 20%",
                 },
                 brand5: {
-                  comment:
-                    "Silver: 15% , Gold: 15% , VIP: 15% Except for the dye",
+                  comment: "15% for all members Except for the dye",
                 },
                 brand6: {
-                  comment:
-                    "Silver: 15% , Gold: 15% , VIP: 15% Except for the dye",
+                  comment: "15% for all members Except for the dye",
                 },
                 brand7: {
-                  comment: "Silver: 20% , Gold: 20% , VIP: 20%",
+                  comment:
+                    "7% on imported treatment for all members, 10% on local treatment for all members - Silver: 8% , Gold: 10% , VIP: 12.5% on cosmatics Except for dairy, refrigerator, and papers.",
                 },
                 brand8: {
-                  comment: "Silver: 25% , Gold: 25% , VIP: 25%",
+                  comment: "25% for all members",
                 },
                 brand9: {
                   comment:
-                    "25% on examination - 15% on implants, orthodontics and other services",
+                    "25% on examination for all members - 15% on implants, orthodontics and other services  for all members",
                 },
                 brand10: {
-                  comment: "up to 50% discount on all memberships",
+                  comment: "from 20% to 50% discount for all members",
                 },
                 brand11: {
-                  comment: "Silver: 30% , Gold: 30% , VIP: 30%",
+                  comment: "30% for all members",
                 },
                 brand12: {
-                  comment: "up to 50% discount on all memberships",
+                  comment: "from 20% to 50% discount for all members",
                 },
                 brand13: {
-                  comment: "up to 15% discount on all memberships",
+                  comment:
+                    "5% on imported treatment for all members, 10% on local treatment for all members - Silver: 10% , Gold: 12.5% , VIP: 15% on cosmatics Except for dairy, refrigerator, and papers.",
                 },
                 brand14: {
-                  comment: "Silver: 25% , Gold: 25% , VIP: 25%",
+                  comment: "25% for all members",
+                },
+                brand15: {
+                  comment: "25% for all members",
+                },
+                brand16: {
+                  comment: "from 20% to 50% discount for all members",
+                },
+                brand17: {
+                  comment: "20% for all members",
                 },
               },
             },
@@ -238,17 +245,18 @@ i18n.use(initReactI18next).init({
               brands: {
                 brand1: {
                   comment:
-                    "10% American Diploma - 15% on courses - 20% on private lessons",
+                    "10% American Diploma for all members - 15% on courses for all members - 20% on private lessons for all members",
                 },
                 brand2: {
-                  comment: "Silver: 8% , Gold: 10% , VIP: 12.5%",
+                  comment:
+                    "Silver: 8% , Gold: 10% , VIP: 12.5% except  for reams of photocopy paper and calculators.",
                 },
                 brand3: {
                   comment:
-                    "Summaries: Silver: 8%, Gold: 10%, VIP: 12%, Stationery: Silver: 8%, Gold: 9%, VIP: 10%, Toys: Silver: 8%, Gold: 9%, VIP: 10%",
+                    "Silver: 8%, Gold: 10%, VIP: 12% for summaries, Silver: 8%, Gold: 9%, VIP: 10% for Stationery and toys",
                 },
                 brand4: {
-                  comment: "up to 20%",
+                  comment: "from 10% to 20% discount for all members",
                 },
               },
             },
@@ -260,10 +268,12 @@ i18n.use(initReactI18next).init({
                   comment: "Silver: 10% , Gold: 12.5% , VIP: 15%",
                 },
                 brand2: {
-                  comment: "Silver: 15% , Gold: 17.5% , VIP: 20%",
+                  comment:
+                    "Silver: 15% , Gold: 17.5% , VIP: 20% - 5% on supplements for all members",
                 },
                 brand3: {
-                  comment: "Silver: 20% , Gold: 35% , VIP: 50%",
+                  comment:
+                    "Silver: 40% , Gold: 45% , VIP: 50% on base price of product",
                 },
                 brand4: {
                   comment: "Silver: 10% , Gold: 15% , VIP: 20%",
@@ -282,13 +292,14 @@ i18n.use(initReactI18next).init({
                 },
                 brand3: {
                   comment:
-                    "On Store: Silver: 10%, Gold: 10%, VIP: 10%, Accessories & Bags: Gold, VIP execlusive: 15%, Watches & Glasses: VIP execlusive: 20%",
+                    "10% On Store for all members, Gold, VIP execlusive: 15% on Accessories & Bags, VIP execlusive: 20% on Watches & Glasses",
                 },
                 brand4: {
-                  comment: "up to 20% on the base price, excluding offers.",
+                  comment:
+                    "from 5% to 20% discount on the base price, except for offers.",
                 },
                 brand5: {
-                  comment: "up to 50% for all memberships",
+                  comment: "from 35% to 50% for all memberships",
                 },
                 brand6: {
                   comment: "Silver: 10% , Gold: 12.5% , VIP: 15% On hand made",
@@ -310,20 +321,20 @@ i18n.use(initReactI18next).init({
                 },
                 brand2: {
                   comment:
-                    "Silver: 10% , Gold: 12.5% , VIP: 15% Offers not included",
+                    "Silver: 10% , Gold: 12.5% , VIP: 15% except for Offers",
                 },
                 brand3: {
                   comment: "Silver: 10% , Gold: 15% , VIP: 20%",
                 },
                 brand4: {
                   comment:
-                    "Ice Cream, Waffles & Drinks: Silver: 10%, Gold: 12.5%, VIP: 15%, Desserts & Breakfast: Silver: 8%, Gold: 9%, VIP: 10%",
+                    "ice Cream, Waffles & Drinks: Silver: 10%, Gold: 12.5%, VIP: 15%, imported ice & Cream Desserts & Breakfast: Silver: 8%, Gold: 9%, VIP: 10%",
                 },
                 brand5: {
-                  comment: "10% off restaurant and café - VIP execlusive",
+                  comment: "10% on restaurant and café - VIP execlusive",
                 },
                 brand6: {
-                  comment: "Silver: 10% , Gold: 15% , VIP: 20%",
+                  comment: "Silver: 10% , Gold: 15% , VIP: 20% except delivery",
                 },
                 brand7: {
                   comment:
@@ -331,46 +342,45 @@ i18n.use(initReactI18next).init({
                 },
                 brand8: {
                   comment:
-                    "Takeaway: Silver: 8%, Gold: 9%, VIP: 10%, Lounge: Silver: 10%, Gold: 12.5%, VIP: 15%, Free Delivery",
+                    "Takeaway: Silver: 8%, Gold: 9%, VIP: 10%, hall: Silver: 10%, Gold: 12.5%, VIP: 15%, Free Delivery",
                 },
                 brand9: {
                   comment:
-                    "hall: Silver: 8%, Gold: 10%, VIP: 12%, Free Delivery",
+                    "hall: Silver: 8%, Gold: 10%, VIP: 12%, Free Delivery but without discount",
                 },
                 brand10: {
-                  comment: "hall: Silver: 5%, Gold: 5%, VIP: 5%",
+                  comment: "5% only in hall for all members",
                 },
                 brand11: {
-                  comment: "up to 5% Except for offers",
+                  comment: "5% for all members Except for offers",
                 },
                 brand12: {
                   comment:
-                    "Silver: 10%, Gold: 12.5%, VIP: 15% Except for offers, Sandwiches: Silver: 10%, Gold: 15%, VIP: 20%",
+                    "Silver: 10%, Gold: 12.5%, VIP: 15% Except for offers, Silver: 10%, Gold: 15%, VIP: 20% for Sandwiches",
                 },
                 brand13: {
-                  comment: "Sandwiches: Silver: 10%, Gold: 12.5%, VIP: 15%",
+                  comment: "Silver: 10%, Gold: 12.5%, VIP: 15% for Sandwiches",
                 },
                 brand14: {
-                  comment:
-                    "Silver: 8% , Gold: 9% , VIP: 10% Offers not included",
+                  comment: "Silver: 8% , Gold: 9% , VIP: 10% except offers",
                 },
                 brand15: {
                   comment:
-                    "Silver: 8% , Gold: 9% , VIP: 10% Offers not included, Free delivery on any invoice over 500 EGP",
+                    "Silver: 8% , Gold: 9% , VIP: 10% except offers, Free delivery on any invoice over 500 EGP",
                 },
                 brand16: {
                   comment: "Silver: 10%, Gold: 12.5%, VIP: 15%",
                 },
                 brand17: {
                   comment:
-                    "drinks: Silver: 10%, Gold: 12.5%, VIP: 15%, material: Silver: 8%, Gold: 9%, VIP: 10%",
+                    "Silver: 10%, Gold: 12.5%, VIP: 15% for drinks, Silver: 8%, Gold: 9%, VIP: 10% for material",
                 },
                 brand18: {
-                  comment: "Silver: 8% , Gold: 9% , VIP: 10%",
+                  comment:
+                    "Silver: 10%, Gold: 15%, VIP: 20% for drinks, Silver: 8%, Gold: 9%, VIP: 10% for material",
                 },
                 brand19: {
-                  comment:
-                    "drinks: Silver: 10%, Gold: 15%, VIP: 20%, material: Silver: 8%, Gold: 9%, VIP: 10%",
+                  comment: "Silver: 8% , Gold: 9% , VIP: 10%",
                 },
                 brand20: {
                   comment: "Silver: 8% , Gold: 10% , VIP: 12%",
@@ -383,30 +393,32 @@ i18n.use(initReactI18next).init({
               brands: {
                 brand1: {
                   comment:
-                    "Silver: 0% , Gold: 5% , VIP: 5% Add to the discount percentage available in the branch",
+                    "Gold: 5% , VIP: 5% Add to the discount percentage available in the branch",
                 },
                 brand2: {
                   comment:
-                    "Silver: 0% , Gold: 5% , VIP: 5% Add to the discount percentage available in the branch",
+                    "Gold: 5% , VIP: 5% Add to the discount percentage available in the branch",
                 },
                 brand3: {
-                  comment: "Silver: 20% , Gold: 35% , VIP: 50%",
+                  comment:
+                    "Silver: 40% , Gold: 45% , VIP: 50% on base price of product",
                 },
                 brand4: {
-                  comment: "Silver: 20% , Gold: 35% , VIP: 50%",
+                  comment:
+                    "Silver: 40% , Gold: 45% , VIP: 50% on base price of product",
                 },
                 brand5: {
                   comment: "Silver: 10% , Gold: 12.5% , VIP: 15%",
                 },
                 brand6: {
-                  comment: "Silver: 10% , Gold: 15% , VIP: 20%",
+                  comment: "Silver: 10% , Gold: 12.5% , VIP: 15%",
                 },
                 brand7: {
-                  comment: "Silver: 10% , Gold: 15% , VIP: 20%",
+                  comment: "Silver: 10% , Gold: 12.5% , VIP: 15%",
                 },
                 brand8: {
                   comment:
-                    "accessories: Silver: 8% , Gold: 9% , VIP: 10% - clothing: Silver: 10% , Gold: 12.5% , VIP: 15%",
+                    "Silver: 8% , Gold: 9% , VIP: 10% for accessories - Silver: 10% , Gold: 12.5% , VIP: 15% for clothing",
                 },
                 brand9: {
                   comment: "Silver: 10% , Gold: 12.5% , VIP: 15%",
@@ -425,39 +437,41 @@ i18n.use(initReactI18next).init({
                     "5% on conference hall - 7% on hotel rooms - VIP execlusive",
                 },
                 brand3: {
-                  comment: "Silver: 5% , Gold: 5% , VIP: 5%",
+                  comment: "5% for all members",
                 },
                 brand4: {
-                  comment: "Silver: 5% , Gold: 5% , VIP: 5%",
+                  comment: "5% for all members",
                 },
                 brand5: {
-                  comment: "Silver: 5% , Gold: 5% , VIP: 5%",
+                  comment: "5% for all members",
                 },
                 brand6: {
                   comment:
-                    "Living room, corner, kitchen, dining room and shelves: Silver: 10%, Gold: 12.5%, VIP: 15%, Bedroom and children's rooms: Silver: 10%, Gold: 15%, VIP: 20%",
+                    "Silver: 10%, Gold: 12.5%, VIP: 15% for Living room, corner, kitchen, dining room and shelves, Silver: 10%, Gold: 15%, VIP: 20% for Bedroom and children's rooms",
                 },
                 brand7: {
-                  comment: "up to 20%",
+                  comment: "Silver: 10% , Gold: 15% , VIP: from 15% to 20%",
                 },
                 brand8: {
-                  comment:
-                    "Silver: 2% , Gold: 2% , VIP: 2% From the consumer list",
+                  comment: "Silver: 10% , Gold: 15% , VIP: from 15% to 20%",
                 },
                 brand9: {
-                  comment:
-                    "Imported dry food, medicines and canned food: Silver: 5%, Gold: 5%, VIP: 5%, Egyptian dry food: Silver: 8%, Gold: 9%, VIP: 10%, Accessories and sand: Silver: 10%, Gold: 12.5%, VIP: 15%, Grooming and care: Silver: 15%, Gold: 20%, VIP: 25%, Free nail clipping",
+                  comment: "2% From the price list for all members",
                 },
                 brand10: {
-                  comment: "up to 50% Except for mobiles",
+                  comment:
+                    "Imported dry food, medicines and canned food: 5% for all members, egyptian dry food: Silver: 8%, Gold: 9%, VIP: 10%, Accessories and sand: Silver: 10%, Gold: 12.5%, VIP: 15%, Grooming and care: Silver: 15%, Gold: 20%, VIP: 25%, Free nail clipping",
                 },
                 brand11: {
-                  comment:
-                    "Silver: 10% , Gold: 11% , VIP: 12.5% Except snacks and drinks",
+                  comment: "Silver: 15% , Gold: 20% , VIP: 25%",
                 },
                 brand12: {
                   comment:
-                    "Candy: Silver: 15%, Gold: 20%, VIP: 25%, gift boxes: Silver: 10%, Gold: 15%, VIP: 20%, Chocolate: Silver: 10%, Gold: 12.5%, VIP: 15%, Snacks: Silver: 8%, Gold: 9%, VIP: 10%, Additional discount on any bill over 1000 EGP: Silver: 5%, Gold: 5%, VIP: 5%",
+                    "Silver: 10% , Gold: 11% , VIP: 12.5% Except snacks and drinks",
+                },
+                brand13: {
+                  comment:
+                    "Silver: 15%, Gold: 20%, VIP: 25% for Candy, Silver: 10%, Gold: 15%, VIP: 20% for gift boxes, Silver: 10%, Gold: 12.5%, VIP: 15% for Chocolate, Silver: 8%, Gold: 9%, VIP: 10% for Snacks, 5% for all members on Additional discount on any bill over 1000 EGP",
                 },
               },
             },
@@ -470,7 +484,7 @@ i18n.use(initReactI18next).init({
                 },
                 brand2: {
                   comment:
-                    "Silver: 10%, Gold: 12.5%, VIP: 15% Except for offers, Elegance veil: Silver: 5%, Gold: 5%, VIP: 5%",
+                    "Silver: 10%, Gold: 12.5%, VIP: 15% Except for offers, 5% for all members on Elegance veil",
                 },
                 brand3: {
                   comment: "Silver: 8% , Gold: 10% , VIP: 12%",
@@ -534,7 +548,7 @@ i18n.use(initReactI18next).init({
               educational: "educational",
               sports: "sports",
               beauty: "beauty",
-              resturant: "resturant",
+              restaurant: "restaurant",
               cafe: "cafe",
               clothes: "clothes",
               perfumes: "perfumes",
@@ -643,7 +657,7 @@ i18n.use(initReactI18next).init({
                 title: "الإستطلاعات المأخوذة",
               },
               partenersItem: {
-                number: "97",
+                number: "105",
                 title: "عدد الشركاء",
               },
               servicesItem: {
@@ -735,48 +749,58 @@ i18n.use(initReactI18next).init({
               desc: "احصل على خصوماتك عند زيارة شركائنا الطبيين، سواء كان ذلك موعدًا مع الطبيب أو المختبر أو الصيدلية والعديد من الخدمات الصحية ذات الصلة",
               brands: {
                 brand1: {
-                  comment:
-                    "فضي: 15%، الذهب: 15%، مميز: 15% داخلي و15%، الذهب: 15%، مميز: 20% خارجي",
+                  comment: "15% داخلي - 20% خارجي لجميع العضويات",
                 },
                 brand2: {
-                  comment: "فضي: 15%، الذهب: 15%، مميز: 15% داخلي وخارجي",
+                  comment: "15% داخلي -  15% خارجي لجميع العضويات",
                 },
                 brand3: {
-                  comment: "فضي: 20%، الذهب: 20%، مميز: 20%",
+                  comment: "20% لجميع العضويات",
                 },
                 brand4: {
-                  comment: "فضي: 25%، الذهب: 20%، مميز: 20%",
+                  comment: "سيلڨر: 25%، جولد: 20%، مميز: 20%",
                 },
                 brand5: {
-                  comment: "فضي: 15%، الذهب: 15%، مميز: 15% باستثناء الصبغة",
+                  comment: "15% لجميع العضويات بإستثناء الصبغة",
                 },
                 brand6: {
-                  comment: "فضي: 15%، الذهب: 15%، مميز: 15% باستثناء الصبغة",
+                  comment: "15% لجميع العضويات بإستثناء الصبغة",
                 },
                 brand7: {
-                  comment: "فضي: 20%، الذهب: 20%، مميز: 20%",
+                  comment:
+                    "7% على الدواء المستورد لجميع العضويات - 10% على الدواء المحلي لجميع العضويات - سيلڨر: 8%، جولد: 10%، مميز: 12.5% على مستحضرات التجميل بإستثناء منتجات الألبان، والثلاجة، والأوراق.",
                 },
                 brand8: {
-                  comment: "فضي: 25%، الذهب: 25%، : 25%",
+                  comment: "25% لجميع العضويات",
                 },
                 brand9: {
                   comment:
-                    "25% على الفحص - 15% على الزراعة وتقويم الأسنان والخدمات الأخرى",
+                    "25% على الفحص لجميع العضويات - 15% على الزراعة وتقويم الأسنان والخدمات الأخرى لجميع العضويات",
                 },
                 brand10: {
-                  comment: "خصم يصل إلى 50% على جميع العضويات",
+                  comment: "خصم يبدأ من 20% إلى 50% لجميع العضويات",
                 },
                 brand11: {
-                  comment: "فضي: 30% , الذهب: 30% , مميز: 30%",
+                  comment: "30% لجميع العضويات",
                 },
                 brand12: {
-                  comment: "خصم يصل إلى 50% على جميع العضويات",
+                  comment: "خصم يبدأ من 20% إلى 50% لجميع العضويات",
                 },
                 brand13: {
-                  comment: "خصم يصل إلى 15% على جميع العضويات",
+                  comment:
+                    "5% على الدواء المستورد لجميع العضويات - 10% على الدواء المحلي لجميع العضويات - سيلڨر: 10%، جولد: 12.5%، مميز: 15% على مستحضرات التجميل بإستثناء منتجات الألبان، والثلاجة، والأوراق.",
                 },
                 brand14: {
-                  comment: "فضي: 25%، الذهب: 25%، مميز: 25%",
+                  comment: "25% لجميع العضويات",
+                },
+                brand15: {
+                  comment: "25% لجميع العضويات",
+                },
+                brand16: {
+                  comment: "خصم يبدأ من 20% إلى 50% لجميع العضويات",
+                },
+                brand17: {
+                  comment: "20% لجميع العضويات",
                 },
               },
             },
@@ -786,17 +810,18 @@ i18n.use(initReactI18next).init({
               brands: {
                 brand1: {
                   comment:
-                    "10% دبلومة أمريكية - 15% على الكورسات - 20% على الدروس الخصوصية",
+                    "10% دبلومة أمريكية لجميع العضويات - 15% على الكورسات لجميع العضويات - 20% على الدروس الخصوصية لجميع العضويات",
                 },
                 brand2: {
-                  comment: "فضي: 8%، الذهب: 10%، مميز: 12.5%",
+                  comment:
+                    "سيلڨر: 8%، جولد: 10%، مميز: 12.5% بإستثناء رزم ورق التصوير والآلات الحاسبة",
                 },
                 brand3: {
                   comment:
-                    "الملخصات: فضي: 8%، الذهب: 10%، مميز: 12%، الادوات المكتبية: فضي: 8%، الذهب: 9%، مميز: 10%، العاب الاضفال: فضي: 8%، الذهب: 9%، مميز: 10%",
+                    "سيلڨر: 8%، جولد: 10%، مميز: 12% للملخصات، سيلڨر: 8%، جولد: 9%، مميز: 10% لالادوات المكتبية والعاب الاطفال",
                 },
                 brand4: {
-                  comment: "خصم يصل إلى 20%",
+                  comment: "خصم يبدأ من 10% إلى 20% لجميع العضويات",
                 },
               },
             },
@@ -805,16 +830,18 @@ i18n.use(initReactI18next).init({
               desc: "مجموعة واسعة من الصالات الرياضية ومحلات الملابس الرياضية والمدربين الخاصين والمكملات الغذائية والمزيد من الخدمات في متناول يدك",
               brands: {
                 brand1: {
-                  comment: "فضي: 10% , ذهبي: 12.5% , مميز: 15%",
+                  comment: "سيلڨر: 10% , جولد: 12.5% , مميز: 15%",
                 },
                 brand2: {
-                  comment: "فضي: 15% , ذهبي: 17.5% , مميز: 20%",
+                  comment:
+                    "سيلڨر: 15% , جولد: 17.5% , مميز: 20% - 5% على المكملات الغذائية لجميع العضويات",
                 },
                 brand3: {
-                  comment: "فضي: 20% , ذهبي: 35% , مميز: 50%",
+                  comment:
+                    "سيلڨر: 40% , جولد: 45% , مميز: 50% على السعر الاساسي للمنتج",
                 },
                 brand4: {
-                  comment: "فضي: 10% , ذهبي: 15% , مميز: 20%",
+                  comment: "سيلڨر: 10% , جولد: 15% , مميز: 20%",
                 },
               },
             },
@@ -826,26 +853,28 @@ i18n.use(initReactI18next).init({
                   comment: "حصريا للمميز : 25%",
                 },
                 brand2: {
-                  comment: "فضي: 8%، الذهب: 9%، مميز: 10% باستثناء الورق",
+                  comment: "سيلڨر: 8%، جولد: 9%، مميز: 10% بإستثناء الورق",
                 },
                 brand3: {
                   comment:
-                    "على جميع ما في المتجر: فضي: 10%، الذهب: 10%، مميز: 10%، الإكسسوارات والحقائب: حصريا للذهب , المميز: 15%، الساعات والنظارات: حصريا للمميز: 20%",
+                    "10% على جميع المنتجات لجميع العضويات - 15% حصرياً للعضوية الجولد والمميزة للاكسسوارات والشنط - 20% حصرياً للعضوية المميزة على الساعات والنظارات",
                 },
                 brand4: {
-                  comment: "خصم يصل إلي 20% علي السعر الأساسي ما عدا العروض",
+                  comment:
+                    "خصم يبدأ من 5% إلي 20% علي السعر الأساسي بإستثناء العروض",
                 },
                 brand5: {
-                  comment: "خصم يصل إلى 50% لجميع العضويات",
+                  comment: "خصم يبدأ من 35% إلى 50% لجميع العضويات",
                 },
                 brand6: {
-                  comment: "فضي: 10%، الذهب: 12.5%، مميز: 15% على الشغل اليدوي",
+                  comment:
+                    "سيلڨر: 10%، جولد: 12.5%، مميز: 15% على الشغل اليدوي",
                 },
                 brand7: {
-                  comment: "فضي: 10%، الذهب: 15%، مميز: 20%",
+                  comment: "سيلڨر: 10%، جولد: 15%، مميز: 20%",
                 },
                 brand8: {
-                  comment: "فضي: 10%، الذهب: 15%، مميز: 20%",
+                  comment: "سيلڨر: 10%، جولد: 15%، مميز: 20%",
                 },
               },
             },
@@ -854,74 +883,72 @@ i18n.use(initReactI18next).init({
               desc: "تضمن خدمتنا الاستمتاع بوجباتك المفضلة بتكلفة أقل. نتعاون مع أفضل المطاعم لتقديم عروض حصرية. وفر المال أثناء تناول الطعام اللذيذ. استمتع بأفضل خيارات الطعام بأسعار لا تقاوم.",
               brands: {
                 brand1: {
-                  comment: "فضي: 10%، الذهب: 12.5%، مميز: 15%",
+                  comment: "سيلڨر: 10%، جولد: 12.5%، مميز: 15%",
                 },
                 brand2: {
-                  comment:
-                    "فضي: 10%، الذهبي: 12.5%، مميز: 15% العروض غير متضمنة",
+                  comment: "سيلڨر: 10%، جولد: 12.5%، مميز: 15% بإستثناء العروض",
                 },
                 brand3: {
-                  comment: "فضي: 10%، الذهب: 15%، مميز: 20%",
+                  comment: "سيلڨر: 10%، جولد: 15%، مميز: 20%",
                 },
                 brand4: {
                   comment:
-                    "الآيس كريم والوافلز والمشروبات: الفضية: 10%، الذهبية: 12.5%، مميز: 15%، الحلويات والإفطار: الفضية: 8%، الذهبية: 9%، مميز: 10%",
+                    "الآيس كريم والوافلز والمشروبات: سيلڨر: 10%، جولد: 12.5%، مميز: 15%، الآيس كريم المستورد والحلويات والإفطار: سيلڨر: 8%، جولد: 9%، مميز: 10%",
                 },
                 brand5: {
                   comment: "خصم 10% على المطاعم والكافيهات - حصريا للمميز",
                 },
                 brand6: {
-                  comment: "فضي: 10%، الذهب: 15%، مميز: 20%",
+                  comment: "سيلڨر: 10%، جولد: 15%، مميز: 20% بإستثناء التوصيل",
                 },
                 brand7: {
                   comment:
-                    "المنيو والإفطار: الذهبي: 10%، مميز: 15%، شريحة لحم: مميز: 20%",
+                    "المنيو والإفطار: جولد: 10%، مميز: 15%، شرائح اللحم: مميز: 20%",
                 },
                 brand8: {
                   comment:
-                    "التيك آواي: الفضية: 8%، الذهبية: 9%، مميز: 10%، الصالة: الفضية: 10%، الذهبية: 12.5 %، مميز: 15%، التوصيل مجاني",
+                    "التيك آواي: سيلڨر: 8%، جولد: 9%، مميز: 10%، الصالة: سيلڨر: 10%، جولد: 12.5 %، مميز: 15%، التوصيل مجاني لكن بدون خصم",
                 },
                 brand9: {
                   comment:
-                    "الصالة: فضي: 8%، الذهب: 10%، مميز: 12%، التوصيل مجاني",
+                    "الصالة: سيلڨر: 8%، جولد: 10%، مميز: 12%، التوصيل مجاني",
                 },
                 brand10: {
-                  comment: "الصالة: فضي: 5%، الذهب: 5%، مميز: 5%",
+                  comment: "5% داخل الصالة لجميع العضويات",
                 },
                 brand11: {
-                  comment: "خصم يصل إلى 5%، بإستثناء العروض",
+                  comment: "5% لجميع العضويات بإستثناء العروض",
                 },
                 brand12: {
                   comment:
-                    "الفضية: 10%، الذهبي: 12.5%، مميز: 15% باستثناء العروض، الساندويتشات: الفضية: 10%، الذهبي: 15%، مميز: 20%",
+                    "سيلڨر: 10%، جولد: 12.5%، مميز: 15% بإستثناء العروض، سيلڨر: 10%، جولد: 15%، مميز: 20% للساندويتشات",
                 },
                 brand13: {
-                  comment:
-                    "الساندويتشات: الفضية: 10%، الذهبية: 12.5%، مميز: 15%",
+                  comment: "سيلڨر: 10%، جولد: 12.5%، مميز: 15% للساندويتشات",
                 },
                 brand14: {
-                  comment: "فضي: 8%، الذهبي: 9%، مميز: 10% العروض غير متضمنة",
+                  comment: "سيلڨر: 8%، جولد: 9%، مميز: 10% بإستثناء العروض",
                 },
                 brand15: {
                   comment:
-                    "فضي: 8%، الذهبي: 9%، مميز: 10% العروض غير متضمنة, توصيل مجاني على لأي فاتورة تتعدي قيمتها 500 جنية",
+                    "سيلڨر: 8%، جولد: 9%، مميز: 10% العروض غير متضمنة, توصيل مجاني على لأي فاتورة تتعدي قيمتها 500 جنية",
                 },
                 brand16: {
-                  comment: "فضي: 10%، الذهب: 12.5%، مميز: 15%",
+                  comment: "سيلڨر: 10%، جولد: 12.5%، مميز: 15%",
                 },
                 brand17: {
                   comment:
-                    "فضي: 10%، الذهب: 12.5%، مميز: 15% مشروبات، فضي: 8%، الذهب: 9%، مميز: 10% خامات",
+                    "سيلڨر: 10%، جولد: 12.5%، مميز: 15% للمشروبات، سيلڨر: 8%، جولد: 9%، مميز: 10% للخامات",
                 },
                 brand18: {
-                  comment: "فضي: 8%، الذهب: 9%، مميز: 10%",
+                  comment:
+                    "سيلڨر: 10%، جولد: 15%، مميز: 20% للمشروبات، سيلڨر: 8%، جولد: 9%، مميز: 10% للخامات",
                 },
                 brand19: {
-                  comment:
-                    "فضي: 10%، الذهب: 15%، مميز: 20% مشروبات، فضي: 8%، الذهب: 9%، مميز: 10% خامات",
+                  comment: "سيلڨر: 8%، جولد: 9%، مميز: 10%",
                 },
                 brand20: {
-                  comment: "فضي: 8%، الذهب: 10%، مميز: 12%",
+                  comment: "سيلڨر: 8%، جولد: 10%، مميز: 12%",
                 },
               },
             },
@@ -931,33 +958,35 @@ i18n.use(initReactI18next).init({
               brands: {
                 brand1: {
                   comment:
-                    "الفضي: 0%، الذهبي: 5%، مميز: 5% تضاف إلى نسبة الخصم المتوفرة في الفرع",
+                    "جولد: 5%، مميز: 5% تضاف إلى نسبة الخصم المتوفرة في الفرع",
                 },
                 brand2: {
                   comment:
-                    "الفضي: 0%، الذهبي: 5%، مميز: 5% تضاف إلى نسبة الخصم المتوفرة في الفرع",
+                    "جولد: 5%، مميز: 5% تضاف إلى نسبة الخصم المتوفرة في الفرع",
                 },
                 brand3: {
-                  comment: "فضي: 20% , ذهبي: 35% , مميز: 50%",
+                  comment:
+                    "سيلڨر: 40% , جولد: 45% , مميز: 50% على السعر الاساسي للمنتج",
                 },
                 brand4: {
-                  comment: "فضي: 20% , ذهبي: 35% , مميز: 50%",
+                  comment:
+                    "سيلڨر: 40% , جولد: 45% , مميز: 50% على السعر الاساسي للمنتج",
                 },
                 brand5: {
-                  comment: "فضي: 10%، الذهب: 12.5%، مميز: 15%",
+                  comment: "سيلڨر: 10%، جولد: 12.5%، مميز: 15%",
                 },
                 brand6: {
-                  comment: "فضي: 10% , ذهبي: 15% , مميز: 20%",
+                  comment: "سيلڨر: 10% , جولد: 12.5% , مميز: 15%",
                 },
                 brand7: {
-                  comment: "فضي: 10% , ذهبي: 15% , مميز: 20%",
+                  comment: "سيلڨر: 10% , جولد: 12.5% , مميز: 15%",
                 },
                 brand8: {
                   comment:
-                    "الاكسسوارات: فضة: 8%، ذهب: 9%، مميز: 10% - الملابس: فضة: 10%، ذهب: 12.5%، مميز: 15%",
+                    "سيلڨر: 8%، جولد: 9%، مميز: 10% للاكسسوارات - سيلڨر: 10%، جولد: 12.5%، مميز: 15% للملابس",
                 },
                 brand9: {
-                  comment: "فضي: 10%، الذهب: 12.5%، مميز: 15%",
+                  comment: "سيلڨر: 10%، جولد: 12.5%، مميز: 15%",
                 },
               },
             },
@@ -966,45 +995,48 @@ i18n.use(initReactI18next).init({
               desc: "ستجد هنا العلامات التجارية التي تقدم الخدمات التي ستحتاجها طوال يومك، سواء كانت سيارتك تحتاج إلى زيت أو كنت تشتري ملابس جديدة، فستكون دائمًا هنا للحصول على أفضل جودة وأفضل سعر في السوق",
               brands: {
                 brand1: {
-                  comment: "فضي: 8% , ذهبي: 9% , مميز: 10%",
+                  comment: "سيلڨر: 8% , جولد: 9% , مميز: 10%",
                 },
                 brand2: {
                   comment:
                     "خصم 5% على قاعة المؤتمرات - خصم 7% على غرف الفندق - حصرياً للمميز",
                 },
                 brand3: {
-                  comment: "فضي: 5% , ذهبي: 5% , مميز: 5%",
+                  comment: "5% لجميع العضويات",
                 },
                 brand4: {
-                  comment: "فضي: 5% , ذهبي: 5% , مميز: 5%",
+                  comment: "5% لجميع العضويات",
                 },
                 brand5: {
-                  comment: "فضي: 5% , ذهبي: 5% , مميز: 5%",
+                  comment: "5% لجميع العضويات",
                 },
                 brand6: {
                   comment:
-                    "الأنتريه، الركنة، المطابخ، السفرة والرفايع: فضي: 10%، ذهبي: 12.5%، مميز: 15%، غرف النوم والأطفال: فضي: 10%، ذهبي: 15%، مميز: 20%",
+                    "سيلڨر: 10%، جولد: 12.5%، مميز: 15% للأنتريه، الركنة، المطابخ، السفرة والرفايع، سيلڨر: 10%، جولد: 15%، مميز: 20% لغرف النوم والأطفال",
                 },
                 brand7: {
-                  comment: "خصم يصل إلى 20%",
+                  comment: "سيلڨر: 10% , جولد: 15% , مميز: من 15% إلى 20%",
                 },
                 brand8: {
-                  comment: "فضي: 2%، الذهب: 2%، مميز: 2% من قائمة المستهلك",
+                  comment: "سيلڨر: 10% , جولد: 15% , مميز: من 15% إلى 20%",
                 },
                 brand9: {
-                  comment:
-                    "أغذية جافة مستوردة وأدوية ومعلبات: فضية: 5%، ذهبية: 5%، مميز: 5%، أغذية جافة مصرية: فضية: 8%، ذهبية: 9%، مميز: 10%، إكسسوارات ورمال: فضية: 10%، ذهبية: 12.5%، مميز: 15%، العناية : فضية: 15%، ذهبية: 20%، مميز: 25%، قص أظافر مجاني",
+                  comment: "2% من قائمة المستهلك لجميع العضويات",
                 },
                 brand10: {
-                  comment: "خصم يصل إلى 50%",
+                  comment:
+                    "دراي فود مستوردة وأدوية ومعلبات: 5% لجميع العضويات، دراي فود مصرية: سيلڨر: 8%، جولد: 9%، مميز: 10%، إكسسوارات ورمال: سيلڨر: 10%، جولد: 12.5%، مميز: 15%، العناية : سيلڨر: 15%، جولد: 20%، مميز: 25%، قص أظافر مجاني",
                 },
                 brand11: {
-                  comment:
-                    "فضي: 10%، الذهبي: 11%، مميز: 12.5% ​​باستثناء السناكس و المشروبات",
+                  comment: "سيلڨر: 15% , جولد: 20% , مميز: من 25%",
                 },
                 brand12: {
                   comment:
-                    "الحلوى: الفضية: 15%، الذهبية: 20%، مميز: 25%، صناديق الهدايا: الفضية: 10%، الذهبية: 15%، مميز: 20%، الشوكولاتة: الفضية: 10%، الذهبية: 12.5%، مميز: 15%، السناكس: الفضية: 8%، الذهبية: 9%، مميز: 10%، خصم إضافي على أي فاتورة تزيد عن 1000 جنيه مصري: الفضية: 5%، الذهبية: 5%، مميز: 5%",
+                    "سيلڨر: 10%، جولد: 11%، مميز: 12.5% ​​بإستثناء السناكس و المشروبات",
+                },
+                brand13: {
+                  comment:
+                    "سيلڨر: 15%، جولد: 20%، مميز: 25% للحلوى، سيلڨر: 10%، جولد: 15%، مميز: 20% لصناديق الهدايا، سيلڨر: 10%، جولد: 12.5%، مميز: 15% للشوكولاتة، سيلڨر: 8%، جولد: 9%، مميز: 10% للسناكس، خصم إضافي 5% لجميع العضويات على أي فاتورة تزيد عن 1000 جنيه مصري",
                 },
               },
             },
@@ -1013,14 +1045,14 @@ i18n.use(initReactI18next).init({
               desc: "تتيح لك خدمتنا التسوق لشراء منتجاتك المفضلة بأسعار مخفضة. نتعاون مع أفضل المتاجر الإلكترونية لتقديم عروض حصرية. وفر المال أثناء الاستمتاع بتجربة تسوق مريحة. استمتع بأفضل خيارات التسوق عبر الإنترنت بأسعار لا تقاوم.",
               brands: {
                 brand1: {
-                  comment: "فضي: 10% , ذهبي: 20% , مميز: 30%",
+                  comment: "سيلڨر: 10% , جولد: 20% , مميز: 30%",
                 },
                 brand2: {
                   comment:
-                    "فضي: 10%، الذهب: 12.5%، مميز: 15% باستثناء العروض، طرح الأليجانس: فضي: 5%، الذهب: 5%، مميز: 5%",
+                    "سيلڨر: 10%، جولد: 12.5%، مميز: 15% بإستثناء العروض، 5% لجميع العضويات على طرح الأليجانس",
                 },
                 brand3: {
-                  comment: "فضي: 8% , ذهبي: 10% , مميز: 12%",
+                  comment: "سيلڨر: 8% , جولد: 10% , مميز: 12%",
                 },
               },
             },
@@ -1081,7 +1113,7 @@ i18n.use(initReactI18next).init({
               educational: "تعليمي",
               sports: "رياضي",
               beauty: "تجميل",
-              resturant: "مطاعم",
+              restaurant: "مطاعم",
               cafe: "كافيهات",
               clothes: "ملابس",
               perfumes: "عطور",
